@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+backend/venv/
+
+# Node
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React builds
+build/
+dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Firebase / service account credentials
+serviceAccountKey.json
+firebase-adminsdk*.json
+*service-account*.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
